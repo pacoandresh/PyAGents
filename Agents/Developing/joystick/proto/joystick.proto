@@ -1,0 +1,9 @@
+syntax="proto3";
+
+message Joystick_btn{
+    repeated string Buttons=1;
+}
+
+message Joystick_Axis{
+    map<string, int32> axis = 1;
+}
